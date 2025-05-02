@@ -1,0 +1,13 @@
+# VS Code settings
+.vscode/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+.virtual_documents/
+
+# macOS system files
+.DS_Store
+
+# Python bytecode
+__pycache__/
+*.pyc
