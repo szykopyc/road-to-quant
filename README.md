@@ -31,6 +31,8 @@ Szymon Kopycinski
 ## Technologies
 - Python 3.11
 - Pandas, NumPy, Matplotlib, yfinance
+- Jupyter Notebook
+- Git
 
 ## Setup Instructions
 1. Clone the repo: `git clone https://github.com/szykopyc/road-to-quant.git`
