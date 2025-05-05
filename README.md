@@ -1,4 +1,4 @@
-![Python](https://img.shields.io/badge/python-3.10-blue)
+![Python](https://img.shields.io/badge/python-3.11-blue)
 # road-to-quant
 This repo documents my journey into quantitative finance through small, focused projects inspired by concepts taught in *Quantitative Portfolio Management* by Michael Isichenko.
 
@@ -28,8 +28,12 @@ Szymon Kopycinski
 ## Future Plans
 - Finish reading Chapter 2, complete any further projects.
 
+## Technologies
+- Python 3.11
+- Pandas, NumPy, Matplotlib, yfinance
+
 ## Setup Instructions
 1. Clone the repo: `git clone https://github.com/szykopyc/road-to-quant.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run scripts using Jupyter Notebook or Python where applicable:
-    - Example: `jupyter notebook notebook_adjusting_for_corporate_actions.ipynb`
+    - Example: `jupyter notebook adjusting_for_corporate_actions.ipynb`
