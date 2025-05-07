@@ -10,4 +10,6 @@
 
 # Python bytecode
 __pycache__/
-*.pyc
+*.pyc.env
+
+.env
