@@ -39,3 +39,8 @@ Szymon Kopycinski
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run scripts using Jupyter Notebook or Python where applicable:
     - Example: `jupyter notebook adjusting_for_corporate_actions.ipynb`
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and distribute it with proper attribution.
