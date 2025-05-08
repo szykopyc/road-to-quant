@@ -13,3 +13,5 @@ __pycache__/
 *.pyc.env
 
 .env
+
+Chapter 2/data/*.pkl
