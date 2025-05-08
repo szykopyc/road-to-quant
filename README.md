@@ -25,8 +25,9 @@ Szymon Kopycinski
     - Mini-projects include a notebook visualising mean-reversion (noise, residuals, market beta), a simple momentum trading strategy with a backtester (negative Sharpe Ratio), and a new notebook on abnormal volume and momentum trading.
     - A notebook implementing a long-only trading strategy based on abnormal volume (z-score > 2.5) and momentum (top 10% returns) for 50 stocks (2022–2025). It backtests 1, 3, and 5-day returns, revealing modest mean returns (15–34% over 5 day long positions, for a 3 year backtest) driven by outliers (e.g., NVDA), with high skewness/kurtosis, illustrating the challenges of public signal strategies (inspired by Isichenko’s momentum frameworks).
 
-![Cumulative returns of a price-only momentum strategy, backtested on 3 years of data with varying position holding periods.](images/price_only_momentum_strategy.png)
-*Cumulative returns of a price-only momentum strategy, backtested on 3 years of data with varying position holding periods.*
+    ![Cumulative returns of a price-only momentum strategy, backtested on 3 years of data with varying position holding periods.](images/price_only_momentum_strategy.png)
+    *Cumulative returns of a price-only momentum strategy, backtested on 3 years of data with varying position holding periods.*
+
     - This chapter is still being read, further mini-projects will be added.
 
 ## Future Plans
