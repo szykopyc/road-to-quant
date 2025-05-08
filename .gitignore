@@ -15,3 +15,4 @@ __pycache__/
 .env
 
 Chapter 2/data/*.pkl
+Chapter 2/*.txt

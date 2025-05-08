@@ -22,15 +22,17 @@ Szymon Kopycinski
     - The mini-projects include 2 notebooks, one showing adjustment for corporate actions, and one for the difference between linear and log returns.
 - **Chapter 2: Forecasting**
     - This chapter has so far explored data used for forecasts (e.g., event-based predictors, macroeconomic data, alternative data), as well as technical forecasts (e.g., mean reversion, momentum).
-    - So far, the mini-projects are a notebook visualising mean-reversion, including noise, residuals, market beta, as well as a simple momentum trading strategy with a backtester. Unsurprisingly, the momentum trading strategy had a negative Sharpe Ratio.
+    - Mini-projects include a notebook visualising mean-reversion (noise, residuals, market beta), a simple momentum trading strategy with a backtester (negative Sharpe Ratio), and a new notebook on abnormal volume and momentum trading.
+    - A notebook implementing a long-only trading strategy based on abnormal volume (z-score > 2.5) and momentum (top 10% returns) for 50 stocks (2022–2025). It backtests 1, 3, and 5-day returns, revealing modest mean returns (15–34% over 5 days) driven by outliers (e.g., NVDA), with high skewness/kurtosis, illustrating the challenges of public signal strategies (inspired by Isichenko’s momentum frameworks).
     - This chapter is still being read, further mini-projects will be added.
 
 ## Future Plans
 - Finish reading Chapter 2, complete any further projects.
+- Enhance the abnormal volume and momentum notebook with risk-adjusted metrics (e.g., Sharpe ratio).
 
 ## Technologies
 - Python 3.11
-- Pandas, NumPy, Matplotlib, yfinance
+- Pandas, NumPy, Matplotlib, Seaborn, yfinance, SciPy, Statsmodels, scikit-learn, python-dotenv, Requests
 - Jupyter Notebook
 - Git
 
@@ -39,6 +41,26 @@ Szymon Kopycinski
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run scripts using Jupyter Notebook or Python where applicable:
     - Example: `jupyter notebook adjusting_for_corporate_actions.ipynb`
+
+## Contributing
+Suggestions or feedback on the projects are welcome! Please open an issue or submit a pull request with improvements. For major changes, discuss in an issue first.
+
+## Data Access
+
+Historical OHLCV data sourced in this project is primarily from Polygon.io, with some instances from [Yahoo Finance](https://uk.finance.yahoo.com) (`yfinance` as the proxy) when explicitly stated.
+
+Due to redistribution purposes, the processed `.pkl` files are not included.
+
+### How to Fetch the Data
+To recreate the dataset locally:
+1. Get a free Polygon.io API key from [Polygon.io](https://polygon.io)
+2. Create a `.env` file in the root directory with your API key:
+`POLYGON_API_KEY=your_actual_api_key_here`
+3. Run the data pull script by setting the `pull_or_pickle` argument in data fetching functions to "pull"
+    - Example: `data = pull_stock_data(stock, pull_or_pickle="pull")`
+4. This will download and cache the data in the `data` folder in each chapter folder
+
+Subsequent runs will load from this file automatically unless "pull" is explicitly set
 
 ## License
 

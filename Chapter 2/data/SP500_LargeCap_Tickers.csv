@@ -1,0 +1,51 @@
+Ticker,Company Name,Sector
+AAPL,Apple Inc.,Technology
+MSFT,Microsoft Corporation,Technology
+NVDA,NVIDIA Corporation,Technology
+AMZN,Amazon.com Inc.,Consumer Discretionary
+GOOGL,Alphabet Inc. Class A,Communication Services
+GOOG,Alphabet Inc. Class C,Communication Services
+META,Meta Platforms Inc.,Communication Services
+BRK.B,Berkshire Hathaway Inc. Class B,Financials
+AVGO,Broadcom Inc.,Technology
+TSLA,Tesla Inc.,Consumer Discretionary
+JPM,JPMorgan Chase & Co.,Financials
+WMT,Walmart Inc.,Consumer Staples
+UNH,UnitedHealth Group Incorporated,Healthcare
+V,Visa Inc.,Financials
+MA,Mastercard Incorporated,Financials
+PG,Procter & Gamble Company,Consumer Staples
+JNJ,Johnson & Johnson,Healthcare
+HD,Home Depot Inc.,Consumer Discretionary
+COST,Costco Wholesale Corporation,Consumer Staples
+MRK,Merck & Co. Inc.,Healthcare
+ABBV,AbbVie Inc.,Healthcare
+CVX,Chevron Corporation,Energy
+KO,Coca-Cola Company,Consumer Staples
+PEP,PepsiCo Inc.,Consumer Staples
+ADBE,Adobe Inc.,Technology
+CSCO,Cisco Systems Inc.,Technology
+INTC,Intel Corporation,Technology
+AMD,Advanced Micro Devices Inc.,Technology
+QCOM,Qualcomm Incorporated,Technology
+ORCL,Oracle Corporation,Technology
+CRM,Salesforce Inc.,Technology
+NFLX,Netflix Inc.,Communication Services
+DIS,Walt Disney Company,Communication Services
+MCD,McDonald's Corporation,Consumer Discretionary
+LOW,Lowe's Companies Inc.,Consumer Discretionary
+TGT,Target Corporation,Consumer Staples
+NKE,Nike Inc.,Consumer Discretionary
+SBUX,Starbucks Corporation,Consumer Discretionary
+CAT,Caterpillar Inc.,Industrials
+DE,Deere & Company,Industrials
+MMM,3M Company,Industrials
+GE,General Electric Company,Industrials
+BA,Boeing Company,Industrials
+HON,Honeywell International Inc.,Industrials
+UNP,Union Pacific Corporation,Industrials
+FDX,FedEx Corporation,Industrials
+GS,Goldman Sachs Group Inc.,Financials
+MS,Morgan Stanley,Financials
+BAC,Bank of America Corporation,Financials
+PFE,Pfizer Inc.,Healthcare
