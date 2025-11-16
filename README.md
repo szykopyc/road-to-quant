@@ -2,6 +2,8 @@
 # road-to-quant
 This repo documents my journey into quantitative finance through small, focused projects inspired by concepts taught in *Quantitative Portfolio Management* by Michael Isichenko.
 
+This repository has been discontinued due to other commitments. All of my current work is private. If you'd like to see what I am up to, you can click [here](https://szyk.dev) for my personal site.
+
 ## Backstory
 Although I don't come from a quantitative background, I am deeply drawn to quant finance because:
 - It uses data to forecast asset prices.
